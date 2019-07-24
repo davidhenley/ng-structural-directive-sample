@@ -5,8 +5,7 @@ import { Component } from '@angular/core';
   template: `
     <button (click)="show = !show">Toggle</button>
     <p *appIf="show">Toggle me</p>
-  `,
-  styles: []
+  `
 })
 export class AppComponent {
   show = true;

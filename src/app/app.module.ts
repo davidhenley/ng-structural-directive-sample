@@ -12,7 +12,6 @@ import { IfDirective } from './if.directive';
   imports: [
     BrowserModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
